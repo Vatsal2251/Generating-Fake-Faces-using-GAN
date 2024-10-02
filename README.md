@@ -9,11 +9,7 @@ This project demonstrates how to generate realistic fake human faces using Gener
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## About the Project
 
@@ -38,5 +34,14 @@ The project uses the [Without Mask]([http://mmlab.ie.cuhk.edu.hk/projects/CelebA
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fake-faces-gan.git
+git clone https://github.com/Vatsal2251/fake-faces-gan.git
 cd fake-faces-gan
+```
+
+### Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+### Results
+After training, the GAN should be able to generate images like the following:
